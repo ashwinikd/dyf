@@ -5,6 +5,10 @@ class HomeController extends Controller {
 		$this->name = "Home";
 		parent::__construct();
 	}
+	
+	public function index() {
+		$this->showView("home");
+	}
 }
 
 ?>

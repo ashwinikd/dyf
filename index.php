@@ -1,18 +1,41 @@
 <?php
-ini_set("display_errors", 1);
+ini_set("display_errors", 0);
 global $DYF_CONF;
 require_once "config.php";
 global $globalLogger;
 Logger::configure(DYF_CONFIG . '/log4php.xml');
 $globalLogger = Logger::getLogger("ROOT");
 $globalLogger->info("Recieved Request at " . $_GET["__path__"]);
-require_once DYF_CORE . "/Controller.php";
-die("DONE");
+require_once DYF_CORE . "/core.php";
 
-$facebook = new Facebook(array(
-	"appId"  => "162431140571416",
-	"secret" => "04cab2102549926ed50be65c4e5f5b5d"	
-));
+$path = $_GET["__path__"];
+if($path && !in_array($path, array_keys($DYF_ROUTES["routes"]))) {
+	header("HTTP/1.1 404 Not Found");
+	require_once DYF_DOCS . "/404.php";
+	exit;
+}
+
+$route = $DYF_ROUTES["routes"][$path];
+$ctrl = $method = NULL;
+
+if(!$route) {
+	$ctrl   = $DYF_ROUTES["default_ctrl"];
+	$method = $DYF_ROUTES["default_path"];
+} else {
+	$ctrl   = $route["ctrl"];
+	$method = $route["path"];
+}
+
+require_once DYF_CTRL . "/$ctrl.php";
+$ctrlClass    = $ctrl . "Controller";
+$ctrlInstance = new $ctrlClass();
+$ctrlInstance->$method();
+exit;
+
+?>
+
+<?php
+die("HELLO HOW ARE");
 
 $user = $facebook->getUser();
 $redis = new Redis();
