@@ -16,6 +16,7 @@ class AppController extends Controller {
 			$this->friends = self::$db->getFriendData($this->userId);
 		}
 		$this->data["friends"] = $this->friends;
+		$this->data["activeLink"] = NavLinks::APP;
 		$this->showView("friendlist");
 	}
 	
@@ -43,19 +44,23 @@ class AppController extends Controller {
 				}
 			}
 		}
+		
 		$this->data["selected"] = $matched;
 		
+		$this->data["activeLink"] = NavLinks::APP;
 		$this->showView("success");
 	}
 	
 	public function dates() {
 		$this->data["dates"] = self::$db->getMatches($this->userId);
+		$this->data["activeLink"] = NavLinks::DATES;
 		$this->showView("matched");
 	}
 	
 	public function delete() {
 		if(strtolower($_SERVER["REQUEST_METHOD"]) != "post") $this->redirect(DYF_PROTOCOL . DYF_DOMAIN . "/application");
 		self::$db->deleteData($this->userId);
+		$this->data["activeLink"] = NavLinks::APP;
 		$this->showView("");
 	}
 	
