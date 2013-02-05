@@ -7,5 +7,6 @@ class NavLinks {
 	const INTERESTS = 2;
 	const DATES     = 3;
 	const DELETED   = 4;
+	const PRIVACY   = 5;
 
 }

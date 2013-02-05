@@ -76,13 +76,18 @@
 		
 <div style="margin: 11px 0;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdyf.localhost.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162431140571416" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
       <div class="masthead">
+			<?php if($this->data["loggedIn"]): ?>
 			<form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('Are you Sure?');">
 	        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
 			</form>
+			<?php endif;?>
 	        <ul class="nav nav-pills pull-right">	
+			  <?php if($this->data["loggedIn"]): ?>
 		      <li <?php if($this->data["activeLink"] == NavLinks::DATES): ?>class="active"<?php endif; ?>><a href="/dates">Who wants to date you?</a></li>
+			  <?php endif;?>
 	          <li <?php if($this->data["activeLink"] == NavLinks::APP): ?>class="active"<?php endif; ?>><a href="/application">App</a></li>
-	          <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
+		      <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
+		      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
 	        </ul>
         <h3 class="muted"><span style="color:red">Lov</span>anonymous</h3>
       </div>

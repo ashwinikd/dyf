@@ -23,6 +23,10 @@ $DYF_ROUTES["routes"] = array(
 	"delete" => array(
 		"ctrl" => "App",
 		"path" => "delete"
+	),
+	"privacy" => array(
+		"ctrl" => "Home",
+		"path" => "privacy"
 	)
 );
 
