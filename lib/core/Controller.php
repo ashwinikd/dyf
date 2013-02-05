@@ -3,21 +3,33 @@
 abstract class Controller extends DYF {
 	protected $logger;
 	protected $name;
-	protected $loggedIn;
+	protected $data;
+	protected $userId;
 	
 	public function __construct() {
 		parent::__construct();
 		$this->name     = ($this->name) ? $this->name . "Controller" : "Controller";
 		$this->logger   = Logger::getLogger($this->name);
+		$this->data     = array();
 		if( ! $this->_auth() ) {
-			$this->loggedIn = FALSE;
+			$this->data["loggedIn"] = FALSE;
+			$this->data["loginUrl"] = self::$fb->getLoginUrl();
 		} else {
-			$this->loggedIn = TRUE;
+			$this->data["loggedIn"]  = TRUE;
+			$this->data["logoutUrl"] = self::$fb->getLogoutUrl();	;
 		}
 	}
 	
 	protected function _auth() {
-		return (self::$fb->getUser()) ? TRUE : FALSE;
+		$this->userId = self::$fb->getUser();
+		return ($this->userId) ? TRUE : FALSE;
+	}
+	
+	protected function checkAuth() {
+		if(! $this->data["loggedIn"]) {
+			$this->redirect(DYF_PROTOCOL . DYF_DOMAIN);
+			exit;
+		}
 	}
 	
 	protected function redirect($url) {

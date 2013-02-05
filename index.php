@@ -1,5 +1,5 @@
 <?php
-ini_set("display_errors", 1);
+ini_set("display_errors", 0);
 global $DYF_CONF;
 require_once "config.php";
 global $globalLogger;

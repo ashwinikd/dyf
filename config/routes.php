@@ -7,6 +7,10 @@ $DYF_ROUTES["routes"] = array(
 	"home" => array(
 		"ctrl" => "Home",
 		"path" => "index"
+	),
+	"application" => array(
+		"ctrl" => "App",
+		"path" => "index"
 	)
 );
 
