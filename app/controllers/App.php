@@ -32,6 +32,7 @@ class AppController extends Controller {
 			if(count($existing) == 5) break;
 			self::$db->addInterest($this->userId, $id);
 			$frndInterests = self::$db->getInterests($id);
+			
 			$matched[] = $frndProfile["idMap"][$id];
 			if(in_array($this->userId, $frndInterests)) {
 				self::$db->addMatch($this->userId, $frndProfile["idMap"][$id]);
@@ -61,7 +62,7 @@ class AppController extends Controller {
 		if(strtolower($_SERVER["REQUEST_METHOD"]) != "post") $this->redirect(DYF_PROTOCOL . DYF_DOMAIN . "/application");
 		self::$db->deleteData($this->userId);
 		$this->data["activeLink"] = NavLinks::APP;
-		$this->showView("");
+		$this->showView("removed");
 	}
 	
 	private function fetchFriends() {

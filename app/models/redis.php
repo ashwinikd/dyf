@@ -26,7 +26,7 @@ class RedisModel implements ModelIf {
 	}
 	
 	public function addInterest($userId, $id){
-		return $this->conn->sAdd("interests:$user", $id);
+		return $this->conn->sAdd("interests:$userId", $id);
 	}
 	
 	public function getInterests($userId){
