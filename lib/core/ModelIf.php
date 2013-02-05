@@ -1,9 +1,15 @@
 <?php
 
 interface ModelIf {
-	public function addUser($userId, $accessToken);
+	public static function getInstance();
+	public function addUser($userId, $name, $gender, $accessToken);
 	public function addInterest($userId, array $interests);
-	public function deleteUser($userId);
+	public function getInterests($userId);
+	public function deleteData($userId);
+	public function addMatch($userId, $match);
+	public function getMatches($userId);
+	public function addFriendData($userId, $friendData);
+	public function getFriendData($userId);
 }
 
 ?>
