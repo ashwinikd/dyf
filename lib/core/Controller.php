@@ -5,6 +5,7 @@ abstract class Controller extends DYF {
 	protected $name;
 	protected $data;
 	protected $userId;
+	protected $userProfile;
 	
 	public function __construct() {
 		parent::__construct();
@@ -14,9 +15,24 @@ abstract class Controller extends DYF {
 		if( ! $this->_auth() ) {
 			$this->data["loggedIn"] = FALSE;
 			$this->data["loginUrl"] = self::$fb->getLoginUrl();
-		} else {
+		} else {	
+			try {
+				$this->userProfile = self::$fb->api("/me");
+			} catch(Exception $e) {
+				self::showError();
+			}
+			
 			$this->data["loggedIn"]  = TRUE;
-			$this->data["logoutUrl"] = self::$fb->getLogoutUrl();	;
+			$this->data["logoutUrl"] = self::$fb->getLogoutUrl();
+			
+			if(! self::$db->userExists($this->userId)) {
+				self::$db->addUser(
+					$this->userId, 
+					$this->userProfile["name"], 
+					$this->userProfile["gender"], 
+					self::$fb->getAccessToken()
+				);
+			}
 		}
 	}
 	

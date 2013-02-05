@@ -25,12 +25,12 @@ class RedisModel implements ModelIf {
 		$this->conn->hSet("userProfile", $userId, array("name" => $name, "sex" => $gender));
 	}
 	
-	public function addInterest($userId, array $interests){
+	public function addInterest($userId, $id){
 		return $this->conn->sAdd("interests:$user", $id);
 	}
 	
 	public function getInterests($userId){
-		return $this->conn->sMembers("interests:$user");
+		return $this->conn->sMembers("interests:$userId");
 	}
 	
 	public function deleteData($userId){
@@ -59,6 +59,14 @@ class RedisModel implements ModelIf {
 	
 	public function getFriendData($userId) {
 		return json_decode($this->conn->hGet("friend", $userId), true);
+	}
+	
+	public function friendDataExists($userId) {
+		return $this->conn->hExists("friend", $userId);
+	}
+	
+	public function userExists($userId) {
+		return $this->conn->hExists("user", $userId);
 	}
 	
 	public function close() {

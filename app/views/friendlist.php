@@ -92,9 +92,9 @@
 		<p >Select five of your friends</p>
 		<input type="text" id="input" />
 		<div id="result"></div>
-			<form action ="results" method="POST">
+			<form action ="/interests" method="POST">
 			<ul id="friendlist">
-			<?php foreach($friends as $friend): ?>
+			<?php foreach($this->data["friends"]["friends"] as $friend): ?>
 				<li class="friend nothidden hiddenfriend" id="friend_<?php echo $friend["uid"] ?>"  frndid="<?php echo $friend["uid"] ?>">
 					<input name="friend[]" type="checkbox" class="friendcheck" frndid="<?php echo $friend["uid"] ?>" id="friendcheck_<?php echo $friend["uid"] ?>" value="<?php echo $friend["uid"] ?>" />
 					<div style="width:50px; height: 50px; display: inline;"><img src="https://graph.facebook.com/<?php echo $friend["uid"] ?>/picture" /></div> <?php echo $friend["name"]; ; ?>
@@ -115,8 +115,8 @@
 		function trim(s){ 
 	  		return ( s || '' ).replace( /^\s+|\s+$/g, '' ); 
 		}
-		var _nameMap = <?php echo json_encode($nameMap); ?>;
-		var _names = <?php echo json_encode($nameLst); ?>;
+		var _nameMap = <?php echo json_encode($this->data["friends"]["nameMap"]); ?>;
+		var _names = <?php echo json_encode($this->data["friends"]["nameLst"]); ?>;
 		var _midNames = Math.ceil(_names.length/2);
 		var T = new Trie();
 		var i;
