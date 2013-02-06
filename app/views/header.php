@@ -86,17 +86,16 @@
 	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/" : "/application") ?>>Luv[anonymous]</a>
 	          <div class="nav-collapse collapse">
 	            <ul class="nav">
-	              	<?php if($this->data["loggedIn"]): ?>
-					<li><form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
-			        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
-					</form></li>
-					<?php endif;?>
-			        <ul class="nav nav-pills pull-right">	
 					  <?php if($this->data["loggedIn"]): ?>
 				      <li <?php if($this->data["activeLink"] == NavLinks::DATES): ?>class="active"<?php endif; ?>><a href="/dates">Who wants to date you?</a></li>
 				      <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
 						  <?php endif;?>
 				      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
+			              	<?php if($this->data["loggedIn"]): ?>
+							<li><form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
+					        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
+							</form></li>
+							<?php endif;?>
 	            </ul>
 	          </div><!--/.nav-collapse -->
 	
