@@ -1,4 +1,6 @@
 <?php $this->showView("header"); ?>
+
+<div class="hero-unit" style="background-color: #F8E0F7">
 		<p >Select five of your friends</p>
 		<input type="text" id="input" />
 		<div id="result"></div>
@@ -15,6 +17,7 @@
 			<input type="Submit" value="Done" class='btn btn-primary' />
 			</div>
 			</form>
+			</div>
 	<script type="text/javascript" src="static/js/Trie.js"></script>
 	<script type="text/javascript">
 		function trim(s){ 
