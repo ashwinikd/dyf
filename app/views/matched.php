@@ -1,4 +1,5 @@
 <?php $this->showView("header"); ?>
+<div class="hero-unit" style="background-color: #F8E0F7">
 		<h2 class="jumbotron">Following People Want to Date you</h2>
 		<ul id="friendlist">
 		<?php foreach($this->data["dates"] as $friend): ?>
@@ -8,4 +9,5 @@
 			</li>
 		<?php endforeach;?>
 		</ul>
+		</div>
 <?php $this->showView("footer"); ?>
