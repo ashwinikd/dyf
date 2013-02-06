@@ -1,39 +1,15 @@
 <?php $this->showView("header")?>
+<div class="hero-unit">
 	      <div class="jumbotron">
-	        <h1>Super awesome marketing speak!</h1>
-	        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<h3 class="muted"><img src="/static/images/logo.png" /></h3>
+	        <h1 style="font-size: 42px;">Find your Valentine in three easy steps</h1>
+	        <p class="lead">Connect with facebook<br/> Select friends you are interested in<br/>Get notified of mutual interests</p>
 			<?php if($this->data["loggedIn"]): ?>
 				<a class="btn btn-large btn-success" href="<?php echo $this->data["logoutUrl"]; ?>">Sign out of Facebook</a>
 			<?php else: ?>
-	        	<a class="btn btn-large btn-success" href="<?php echo $this->data["loginUrl"]; ?>">Sign up today</a>
+	        	<a href="<?php echo $this->data["loginUrl"]; ?>"><img src="/static/images/fblogin.png" /></a>
 			<?php endif;?>
 	      </div>
-
-	      <hr>
-
-	      <div class="row-fluid marketing">
-	        <div class="span6">
-	          <h4>Subheading</h4>
-	          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-	          <h4>Subheading</h4>
-	          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-	          <h4>Subheading</h4>
-	          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-	        </div>
-
-	        <div class="span6">
-	          <h4>Subheading</h4>
-	          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-	          <h4>Subheading</h4>
-	          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-	          <h4>Subheading</h4>
-	          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-	        </div>
-	      </div>
-
+</div>
 	      <hr>
 <?php $this->showView("footer"); ?>

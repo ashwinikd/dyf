@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<title>Lovanonymous</title> 
-	<link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.css" />
 	<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.css" />
 	<script src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js" type="text/javascript"></script>
 	<style type="text/css">
@@ -64,6 +64,9 @@
 				background-color: #333;
 				color: white;
 			}
+			.muted {
+				text-align:center;
+			}
 	    </style>	
 					<style type="text/css" id="hiddencss" disabled>
 						.hiddenfriend {
@@ -71,25 +74,35 @@
 						}
 					</style>
 </head>
-<body>
-	<div class="container">
-		
-<div style="margin: 11px 0;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdyf.localhost.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162431140571416" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
-      <div class="masthead">
-			<?php if($this->data["loggedIn"]): ?>
-			<form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
-	        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
-			</form>
-			<?php endif;?>
-	        <ul class="nav nav-pills pull-right">	
-			  <?php if($this->data["loggedIn"]): ?>
-		      <li <?php if($this->data["activeLink"] == NavLinks::DATES): ?>class="active"<?php endif; ?>><a href="/dates">Who wants to date you?</a></li>
-			  <?php endif;?>
-	          <li <?php if($this->data["activeLink"] == NavLinks::APP): ?>class="active"<?php endif; ?>><a href="/application">App</a></li>
-		      <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
-		      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
-	        </ul>
-        <h3 class="muted"><span style="color:red">Lov</span>anonymous</h3>
-      </div>
+<body style="padding-top: 0px; margin-top: 0px">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="navbar-inner">
+	        <div class="container">
+	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </a>
+	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/" : "/application") ?>>Luv[anonymous]</a>
+	          <div class="nav-collapse collapse">
+	            <ul class="nav">
+	              	<?php if($this->data["loggedIn"]): ?>
+					<form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
+			        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
+					</form>
+					<?php endif;?>
+			        <ul class="nav nav-pills pull-right">	
+					  <?php if($this->data["loggedIn"]): ?>
+				      <li <?php if($this->data["activeLink"] == NavLinks::DATES): ?>class="active"<?php endif; ?>><a href="/dates">Who wants to date you?</a></li>
+				      <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
+						  <?php endif;?>
+				      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	
+	<div class="pull-right" style="margin: 10px 0 0; width: 64px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdyf.localhost.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162431140571416" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
+	        </div>
+	      </div>
+	    </div>
 
-      <hr>
+      <div class="container">
