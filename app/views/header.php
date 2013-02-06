@@ -93,6 +93,7 @@
 						  <?php endif;?>
 				      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
 			              	<?php if($this->data["loggedIn"]): ?>
+							<li><a class="btn btn-primary" style="margin: 5px 10px" href="/application">Choose your Friend</a></li>
 							<li><form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
 					        <input type="submit" href="delete" class="btn btn-danger" style="margin: 5px 10px; float: right" value="Remove my Data" />
 							</form></li>
