@@ -74,7 +74,7 @@
 						}
 					</style>
 </head>
-<body style="padding-top: 0px; margin-top: 0px">
+<body style="padding-top: 0px; margin-top: 0px; background-color:#FBEFFB;">
 	<div class="navbar navbar-inverse navbar-fixed-top">
 	      <div class="navbar-inner">
 	        <div class="container">

@@ -1,5 +1,6 @@
 <?php $this->showView("header"); ?>
 <div class="hero-unit" style="background-color: #F8E0F7">
+	<h2>Privacy Policy</h2>
 <p>
 	We take your privacy seriously. We will only store information which is required for successful functioning of the application. We also provide you with an option of deleting the data which was captured through your Facebook account.
 </p>
