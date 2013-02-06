@@ -44,7 +44,7 @@
 	      }
 			.friend {
 				float: left;
-				width: 270px;
+				width: 320px;
 				padding: 4px;
 				margin: 5px;
 				border: 2px solid #ddd;
@@ -59,6 +59,7 @@
 				border: 1px solid #ddd;
 				margin: 0 0 10px;
 				list-style: none;
+				background-color: #FBEFFB;
 			}
 			.selected {
 				background-color: #333;
