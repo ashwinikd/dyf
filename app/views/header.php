@@ -87,9 +87,9 @@
 	          <div class="nav-collapse collapse">
 	            <ul class="nav">
 	              	<?php if($this->data["loggedIn"]): ?>
-					<form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
+					<li><form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
 			        <input type="submit" href="delete" class="btn btn-danger" style="margin: 2px 10px; float: right" value="Remove my Data" />
-					</form>
+					</form></li>
 					<?php endif;?>
 			        <ul class="nav nav-pills pull-right">	
 					  <?php if($this->data["loggedIn"]): ?>
