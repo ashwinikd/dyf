@@ -1,9 +1,7 @@
 <?php $this->showView("header")?>
-<div class="hero-unit">
+<div class="hero-unit" style="background-color: #F8E0F7">
 	      <div class="jumbotron">
-			<h3 class="muted"><img src="/static/images/logo.png" /></h3>
-	        <h1 style="font-size: 42px;">Find your Valentine in three easy steps</h1>
-	        <p class="lead">Connect with facebook<br/> Select friends you are interested in<br/>Get notified of mutual interests</p>
+			<h3 class="muted"><img src="/static/images/banner.png" /></h3>
 			<?php if($this->data["loggedIn"]): ?>
 				<a class="btn btn-large btn-success" href="<?php echo $this->data["logoutUrl"]; ?>">Sign out of Facebook</a>
 			<?php else: ?>
