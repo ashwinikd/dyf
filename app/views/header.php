@@ -83,7 +83,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </a>
-	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/" : "/application") ?>>Luv[anonymous]</a>
+	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/application" : "/") ?>>Luv[anonymous]</a>
 	          <div class="nav-collapse collapse">
 	            <ul class="nav">
 					  <?php if($this->data["loggedIn"]): ?>

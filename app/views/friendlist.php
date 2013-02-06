@@ -7,7 +7,7 @@
 			<form action ="/interests" method="POST">
 			<ul id="friendlist">
 			<?php foreach($this->data["friends"]["friends"] as $friend): ?>
-				<li class="friend nothidden hiddenfriend" id="friend_<?php echo $friend["uid"] ?>"  frndid="<?php echo $friend["uid"] ?>">
+				<li class="friend nothidden" id="friend_<?php echo $friend["uid"] ?>"  frndid="<?php echo $friend["uid"] ?>">
 					<input name="friend[]" type="checkbox" class="friendcheck" frndid="<?php echo $friend["uid"] ?>" id="friendcheck_<?php echo $friend["uid"] ?>" value="<?php echo $friend["uid"] ?>" />
 					<div style="width:50px; height: 50px; display: inline;"><img src="https://graph.facebook.com/<?php echo $friend["uid"] ?>/picture" /></div> <?php echo $friend["name"]; ; ?>
 				</li>
