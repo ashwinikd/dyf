@@ -29,7 +29,7 @@ class AppController extends Controller {
 		$existing = self::$db->getInterests($this->userId);
 		
 		foreach($interests as $id) {
-			if(count($existing) == 5) break;
+			if(count($existing) == 10) break;
 			self::$db->addInterest($this->userId, $id);
 			$frndInterests = self::$db->getInterests($id);
 			
@@ -38,8 +38,10 @@ class AppController extends Controller {
 				self::$db->addMatch($this->userId, $frndProfile["idMap"][$id]);
 				self::$db->addMatch($id, array("uid" => $this->userProfile["id"], "name" => $this->userProfile["name"], "sex" => $this->userProfile["gender"]));
 				try{ 
-					//$facebook->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody wants to date you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
-					//$facebook->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody wants to date you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
+					if(DYF_SEND_NOTIF) {
+						$facebook->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
+						$facebook->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
+					}
 				} catch(Exception $e) {
 					self::showError();
 				}

@@ -25,14 +25,12 @@ abstract class Controller extends DYF {
 			$this->data["loggedIn"]  = TRUE;
 			$this->data["logoutUrl"] = self::$fb->getLogoutUrl();
 			
-			if(! self::$db->userExists($this->userId)) {
-				self::$db->addUser(
-					$this->userId, 
-					$this->userProfile["name"], 
-					$this->userProfile["gender"], 
-					self::$fb->getAccessToken()
-				);
-			}
+			self::$db->addUser(
+				$this->userId, 
+				$this->userProfile["name"], 
+				$this->userProfile["gender"], 
+				self::$fb->getAccessToken()
+			);
 		}
 	}
 	
