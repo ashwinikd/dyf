@@ -7,6 +7,12 @@
 	<link type="text/css" rel="stylesheet" href="/static/bootstrap/css/bootstrap-responsive.css" />
 	<script src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js" type="text/javascript"></script>
+	<meta property="og:title" content="Luvanonymous"/>
+	    <meta property="og:url" content="http://www.luvanonymous.com/"/>
+	    <meta property="og:image" content="http://www.luvanonymous.com/static/images/logo.png"/>
+	    <meta property="og:site_name" content="Luvanonymous"/>
+	    <meta property="og:description"
+	          content="Luvanonymous helps you figure out which of your crushes might be interested in dating you. Connect with Facebook, select your crushes and get notified when a match is found."/>
 	<style type="text/css">
 	      body {
 	        padding-top: 20px;
@@ -102,7 +108,7 @@
 	            </ul>
 	          </div><!--/.nav-collapse -->
 	
-	<div class="pull-right" style="margin: 10px 0 0; width: 64px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdyf.localhost.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162431140571416" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
+	<div class="pull-right" style="margin: 10px 0 0; width: 64px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.luvanonymous.com%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162431140571416" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
 	        </div>
 	      </div>
 	    </div>
