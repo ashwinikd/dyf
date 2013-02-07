@@ -41,7 +41,8 @@ class RedisModel implements ModelIf {
 	}
 	
 	public function addMatch($userId, $match){
-		return $this->conn->sAdd("matches:$userId", json_encode($match));
+		$this->conn->sAdd("matches:$userId", json_encode($match));
+		$this->conn->sAdd("matches:$match", json_encode($userId));
 	}
 	
 	public function getMatches($userId) {
@@ -50,7 +51,7 @@ class RedisModel implements ModelIf {
 		foreach($matches as $match) {
 			$return[] = json_decode($match, true);
 		}
-		return $matches;
+		return $return;
 	}
 	
 	public function addFriendData($userId, $friendData) {
