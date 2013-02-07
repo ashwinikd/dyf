@@ -1,0 +1,49 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.5
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Feb 06, 2013 at 03:28 PM
+-- Server version: 5.5.29
+-- PHP Version: 5.3.13
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `test`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `output_addr`
+--
+
+CREATE TABLE IF NOT EXISTS `output_addr` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `full_address` varchar(256) NOT NULL,
+  `house` varchar(256) NOT NULL,
+  `building` varchar(256) NOT NULL,
+  `street` varchar(256) NOT NULL,
+  `landmark` varchar(256) NOT NULL,
+  `area` varchar(256) NOT NULL,
+  `aid` varchar(256) NOT NULL,
+  `city` varchar(256) NOT NULL,
+  `pincode` varchar(256) NOT NULL,
+  `reverse_pin` varchar(256) NOT NULL,
+  `area_right` varchar(256) NOT NULL,
+  `area_source` varchar(256) NOT NULL,
+  `integrety_check` varchar(256) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

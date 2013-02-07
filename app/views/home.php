@@ -1,7 +1,6 @@
 <?php $this->showView("header")?>
 <div class="hero-unit" style="background-color: #F8E0F7">
 	      <div class="jumbotron">
-				<h2>Get busy this Valentines Day!</h2>
 				<h3 class="muted"><img src="/static/images/banner.png" /></h3>
 			<?php if($this->data["loggedIn"]): ?>
 			<?php else: ?>
