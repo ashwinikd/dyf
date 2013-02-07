@@ -44,11 +44,14 @@ class AppController extends Controller {
 						"&client_secret=" . 
 						self::$config["fb"]["secret"] .
 						"&grant_type=client_credentials");
-						$appToken = explode("=", curl_exec($ch));
+						curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+						$appToken = curl_exec($ch);
+						$appToken = explode("=", $appToken);
 						$appToken = $appToken[1];
-						die($appToken);
+						global $globalLogger;
+						$globalLogger->warn("Sending notifications to $id and " . $this->userId);
 						self::$fb->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
-						self::$fb->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
+						self::$fb->api("/" . $this->userId . "/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
 					}
 				} catch(Exception $e) {
 					self::showError();
