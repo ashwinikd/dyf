@@ -3,8 +3,8 @@
 <head>
 	<title>Lovanonymous</title> 
 	<link rel="shortcut icon" href="/static/images/favicon.png" />
-	<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-	<link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.css" />
+	<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link type="text/css" rel="stylesheet" href="/static/bootstrap/css/bootstrap-responsive.css" />
 	<script src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js" type="text/javascript"></script>
 	<style type="text/css">
