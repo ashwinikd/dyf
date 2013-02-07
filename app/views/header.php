@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<title>Lovanonymous</title> 
+	<link rel="shortcut icon" href="/static/images/favicon.png" />
 	<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 	<link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.css" />
 	<script src="http://yui.yahooapis.com/3.2.0/build/yui/yui-min.js"></script>
