@@ -42,7 +42,6 @@ class RedisModel implements ModelIf {
 	
 	public function addMatch($userId, $match){
 		$this->conn->sAdd("matches:$userId", json_encode($match));
-		$this->conn->sAdd("matches:$match", json_encode($userId));
 	}
 	
 	public function getMatches($userId) {
