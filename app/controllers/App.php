@@ -39,6 +39,13 @@ class AppController extends Controller {
 				self::$db->addMatch($id, array("uid" => $this->userProfile["id"], "name" => $this->userProfile["name"], "sex" => $this->userProfile["gender"]));
 				try{ 
 					if(DYF_SEND_NOTIF) {
+						$ch = curl_init("https://graph.facebook.com/oauth/access_token?client_id=" . 
+						self::$config["fb"]["appId"] . 
+						"&client_secret=" . 
+						self::$config["fb"]["secret"] .
+						"&grant_type=client_credentials");
+						$appToken = curl_exec($ch);
+						die($appToken);
 						self::$fb->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
 						self::$fb->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
 					}

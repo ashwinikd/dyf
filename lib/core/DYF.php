@@ -23,6 +23,7 @@ abstract class DYF {
 	protected static function showError() {
 		header("HTTP/1.1 500 Internal Server Error");
 		include DYF_VIEW . "/error.php";
+		exit;
 	}
 
 }
