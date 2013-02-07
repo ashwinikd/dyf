@@ -27,9 +27,17 @@ class AppController extends Controller {
 		$matched = array();
 		$frndProfile = self::$db->getFriendData($this->userId);
 		$existing = self::$db->getInterests($this->userId);
+		$count = count($existing);
 		
+		if( ! self::$db->friendDataExists($this->userId)) {
+			$this->fetchFriends();
+		} else {
+			$this->friends = self::$db->getFriendData($this->userId);
+		}
+		var_dump($this->friends); die();
 		foreach($interests as $id) {
-			if(count($existing) == 10) break;
+			if($count == 10) break;
+			$count++;
 			self::$db->addInterest($this->userId, $id);
 			$frndInterests = self::$db->getInterests($id);
 			
@@ -46,9 +54,8 @@ class AppController extends Controller {
 						"&grant_type=client_credentials");
 						$appToken = explode("=", curl_exec($ch));
 						$appToken = $appToken[1];
-						die($appToken);
-						self::$fb->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
-						self::$fb->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> "162431140571416|aYmOLCe8h0RjElELGLOd3zbZtmE"));
+						self::$fb->api("/$id/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> $appToken));
+						self::$fb->api("/$user/notifications", "POST", array("href" => "http://dyf.localhost.com/possibledates", "template" => "Somebody is interested in dating you. Check out who!", "access_token"=> $appToken));
 					}
 				} catch(Exception $e) {
 					self::showError();
