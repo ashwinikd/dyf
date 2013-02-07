@@ -4,7 +4,7 @@
 				<h3 class="muted"><img src="/static/images/banner.png" /></h3>
 			<?php if($this->data["loggedIn"]): ?>
 			<?php else: ?>
-	        	<a href="<?php echo $this->data["loginUrl"]; ?>"><img src="/static/images/fblogin.png" /></a>
+	        	<a href="#" onclick="window.top.location = '<?php echo $this->data["loginUrl"]; ?>';"><img src="/static/images/fblogin.png" /></a>
 			<?php endif;?>
 	      </div>
 </div>
