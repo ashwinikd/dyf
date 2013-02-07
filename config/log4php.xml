@@ -3,7 +3,7 @@
 		<layout class="LoggerLayoutPattern">
 		    <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} - %server{UNIQUE_ID} - [%logger] - [%level] %message%newline" />
 		</layout>
-        <param name="file" value="/srv/httpd/dyf/log/dyf-%s.log" />
+        <param name="file" value="/srv/http/dyf/log/dyf-%s.log" />
         <param name="datePattern" value="Ymd-H" />
     </appender>
     <root>
