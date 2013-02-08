@@ -124,7 +124,7 @@ class AppController extends Controller {
 			self::$db->addInterest($this->userId, $id);
 			
 			$frndInterests = self::$db->getInterests($id);
-			$matched[]     = $frndProfile["idMap"][$id];
+			$return[]     = $frndProfile["idMap"][$id];
 			
 			if(in_array($this->userId, $frndInterests)) {
 				self::$db->addMatch($this->userId, $this->friends["idMap"][$id]);
