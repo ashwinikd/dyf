@@ -50,7 +50,7 @@ class RedisModel implements ModelIf {
 		foreach($matches as $match) {
 			$return[] = json_decode($match, true);
 		}
-		return $matches;
+		return $return;
 	}
 	
 	public function addFriendData($userId, $friendData) {

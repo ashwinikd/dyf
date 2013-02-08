@@ -20,6 +20,10 @@ $DYF_ROUTES["routes"] = array(
 		"ctrl" => "App",
 		"path" => "dates"
 	),
+	"application/dates" => array(
+		"ctrl" => "App",
+		"path" => "dates"
+	),
 	"delete" => array(
 		"ctrl" => "App",
 		"path" => "delete"
