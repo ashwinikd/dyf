@@ -12,7 +12,11 @@ class RedisModel implements ModelIf {
 		$this->config = $DYF_CONF["db"];
 		$this->conn   = new Redis();
 		$this->logger->info("Trying to connect to Redis@" . $this->config["host"] . ":" . $this->config["port"]);
-		if( ! $this->conn->connect($this->config["host"], $this->config["port"]) ) {
+		try {
+			if( ! $this->conn->connect($this->config["host"], $this->config["port"]) ) {
+				throw new DYFException("Could not connect to Redis Server");
+			}
+		} catch(Exception $e) {
 			throw new DYFException("Could not connect to Redis Server");
 		}
 	}
