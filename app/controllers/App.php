@@ -167,7 +167,7 @@ class AppController extends Controller {
 	}
 	
 	private function getAppToken() {
-		$this->info("Fetching application access token");
+		$this->logger->info("Fetching application access token");
 		
 		$ch = curl_init(
 			"https://graph.facebook.com/oauth/access_token?" . 
