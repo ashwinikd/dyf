@@ -1,0 +1,84 @@
+2013-02-08 22:06:02,152 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:06:02,152 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 22:06:02,153 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 22:06:02,153 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 22:06:02,153 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 22:06:02,154 - URUpcsCoAgIAAJYmXZkAAAAB - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 22:06:02,155 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 22:06:02,155 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 22:06:02,169 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 22:06:02,169 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 22:06:02,169 - URUpcsCoAgIAAJYmXZkAAAAB - [   REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 22:06:02,170 - URUpcsCoAgIAAJYmXZkAAAAB - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 22:15:21,410 - URUrocCoAgIAAJc1Z6QAAAAE - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:15:35,208 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:15:35,209 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 22:15:35,209 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 22:15:35,210 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 22:15:35,210 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 22:15:35,210 - URUrr8CoAgIAAJYnXbkAAAAC - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 22:15:35,247 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 22:15:35,247 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 22:15:35,248 - URUrr8CoAgIAAJYnXbkAAAAC - [  HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-08 22:15:35,249 - URUrr8CoAgIAAJYnXbkAAAAC - [  HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-08 22:15:35,254 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 22:15:35,255 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 22:15:35,255 - URUrr8CoAgIAAJYnXbkAAAAC - [   REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 22:15:35,255 - URUrr8CoAgIAAJYnXbkAAAAC - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 22:23:25,937 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:23:25,938 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 22:23:25,938 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 22:23:25,938 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 22:23:25,939 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 22:23:25,939 - URUthcCoAgIAAJc5Q3kAAAAF - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 22:23:25,940 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 22:23:25,940 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 22:23:25,941 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-08 22:23:25,941 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-08 22:23:25,941 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-08 22:23:25,942 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-08 22:23:25,942 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-08 22:23:25,942 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] Rendering view header
+2013-02-08 22:23:25,951 - URUthcCoAgIAAJc5Q3kAAAAF - [  HomeCtrl] - [   INFO] Rendering view footer
+2013-02-08 22:23:25,952 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 22:23:25,952 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 22:23:25,952 - URUthcCoAgIAAJc5Q3kAAAAF - [   REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 22:23:25,952 - URUthcCoAgIAAJc5Q3kAAAAF - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 22:26:07,364 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:26:07,365 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 22:26:07,365 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 22:26:07,365 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 22:26:07,366 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 22:26:07,366 - URUuJ8CoAgIAAJYmXZwAAAAB - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 22:26:07,367 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 22:26:07,367 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 22:26:07,368 - URUuJ8CoAgIAAJYmXZwAAAAB - [  HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-08 22:26:07,368 - URUuJ8CoAgIAAJYmXZwAAAAB - [  HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-08 22:26:07,368 - URUuJ8CoAgIAAJYmXZwAAAAB - [  HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-08 22:26:07,369 - URUuJ8CoAgIAAJYmXZwAAAAB - [  HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-08 22:26:07,369 - URUuJ8CoAgIAAJYmXZwAAAAB - [  HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-08 22:26:07,369 - URUuJ8CoAgIAAJYmXZwAAAAB - [privacyView] - [   INFO] Rendering view header
+2013-02-08 22:26:07,377 - URUuJ8CoAgIAAJYmXZwAAAAB - [privacyView] - [   INFO] Rendering view footer
+2013-02-08 22:26:07,378 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 22:26:07,378 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 22:26:07,378 - URUuJ8CoAgIAAJYmXZwAAAAB - [   REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 22:26:07,378 - URUuJ8CoAgIAAJYmXZwAAAAB - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 22:26:49,680 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 22:26:49,681 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 22:26:49,681 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Checking Routes
+2013-02-08 22:26:49,682 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 22:26:49,682 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Connecting to database
+2013-02-08 22:26:49,683 - URUuUcCoAgIAAJc5Q3sAAAAF - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 22:26:49,684 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Database connection successful.
+2013-02-08 22:26:49,684 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 22:26:49,685 - URUuUcCoAgIAAJc5Q3sAAAAF - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-08 22:26:49,685 - URUuUcCoAgIAAJc5Q3sAAAAF - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-08 22:26:49,685 - URUuUcCoAgIAAJc5Q3sAAAAF - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-08 22:26:49,686 - URUuUcCoAgIAAJc5Q3sAAAAF - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-08 22:26:49,686 - URUuUcCoAgIAAJc5Q3sAAAAF - [       HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-08 22:26:49,686 - URUuUcCoAgIAAJc5Q3sAAAAF - [    privacyView] - [   INFO] Rendering view header
+2013-02-08 22:26:49,686 - URUuUcCoAgIAAJc5Q3sAAAAF - [    privacyView] - [   INFO] Rendering view footer
+2013-02-08 22:26:49,687 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 22:26:49,687 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-08 22:26:49,687 - URUuUcCoAgIAAJc5Q3sAAAAF - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 22:26:49,688 - URUuUcCoAgIAAJc5Q3sAAAAF - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!

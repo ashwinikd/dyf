@@ -1,0 +1,106 @@
+2013-02-08 21:16:32,510 - URUd2MCoAgIAAJYnXasAAAAC - [ROOT] - [WARN] Hello world
+2013-02-08 21:16:32,531 - URUd2MCoAgIAAJYnXasAAAAC - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:18:03,915 - URUeM8CoAgIAAJYmXZEAAAAB - [ROOT] - [WARN] Hello world
+2013-02-08 21:18:03,960 - URUeM8CoAgIAAJYmXZEAAAAB - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:18:32,970 - URUeUMCoAgIAAJbsNsEAAAAD - [ROOT] - [WARN] Hello world
+2013-02-08 21:18:32,971 - URUeUMCoAgIAAJbsNsEAAAAD - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:19:16,482 - URUefMCoAgIAAJc1Z5cAAAAE - [ROOT] - [WARN] Hello world
+2013-02-08 21:19:16,483 - URUefMCoAgIAAJc1Z5cAAAAE - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:26:34,679 - URUgMsCoAgIAAJbsNsUAAAAD - [ROOT] - [INFO] Recieved Request at privacyd
+2013-02-08 21:26:34,679 - URUgMsCoAgIAAJbsNsUAAAAD - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:26:34,680 - URUgMsCoAgIAAJbsNsUAAAAD - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:26:34,680 - URUgMsCoAgIAAJbsNsUAAAAD - [ROOT] - [ERROR] [404:privacyd]Could not find route.
+2013-02-08 21:27:55,525 - URUgg8CoAgIAAJc5Q20AAAAF - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:27:55,526 - URUgg8CoAgIAAJc5Q20AAAAF - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:27:55,526 - URUgg8CoAgIAAJc5Q20AAAAF - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:27:55,527 - URUgg8CoAgIAAJc5Q20AAAAF - [ROOT] - [INFO] Got connection to DB
+2013-02-08 21:30:28,986 - URUhHMCoAgIAAJc1Z5kAAAAE - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:30:28,987 - URUhHMCoAgIAAJc1Z5kAAAAE - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:30:28,987 - URUhHMCoAgIAAJc1Z5kAAAAE - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:30:29,210 - URUhHMCoAgIAAJc1Z5kAAAAE - [ROOT] - [INFO] Connected to database
+2013-02-08 21:31:11,222 - URUhR8CoAgIAAJYnXbAAAAAC - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:31:11,223 - URUhR8CoAgIAAJYnXbAAAAAC - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:31:11,223 - URUhR8CoAgIAAJYnXbAAAAAC - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:31:44,838 - URUhaMCoAgIAAJc5Q24AAAAF - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:31:44,839 - URUhaMCoAgIAAJc5Q24AAAAF - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:31:44,839 - URUhaMCoAgIAAJc5Q24AAAAF - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:34:47,954 - URUiH8CoAgIAAJYlXOsAAAAA - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:34:47,955 - URUiH8CoAgIAAJYlXOsAAAAA - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:34:47,956 - URUiH8CoAgIAAJYlXOsAAAAA - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:35:02,389 - URUiLsCoAgIAAJc1Z50AAAAE - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:35:02,391 - URUiLsCoAgIAAJc1Z50AAAAE - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:35:02,391 - URUiLsCoAgIAAJc1Z50AAAAE - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:35:14,349 - URUiOsCoAgIAAJYmXZUAAAAB - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:35:14,350 - URUiOsCoAgIAAJYmXZUAAAAB - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:35:14,350 - URUiOsCoAgIAAJYmXZUAAAAB - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:36:54,014 - URUincCoAgIAAJYnXbIAAAAC - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:36:54,015 - URUincCoAgIAAJYnXbIAAAAC - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:36:54,015 - URUincCoAgIAAJYnXbIAAAAC - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:36:54,041 - URUincCoAgIAAJYnXbIAAAAC - [ROOT] - [FATAL] Could not connect to Redis Server
+2013-02-08 21:39:28,145 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:39:28,146 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:39:28,146 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:39:28,147 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:39:28,147 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [INFO] Connecting to database
+2013-02-08 21:39:28,571 - URUjOMCoAgIAAJc5Q3AAAAAF - [ROOT] - [FATAL] Could not connect to Redis Server
+2013-02-08 21:42:59,060 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:42:59,061 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:42:59,061 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:42:59,061 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:42:59,061 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [INFO] Connecting to database
+2013-02-08 21:42:59,063 - URUkC8CoAgIAAJc1Z58AAAAE - [ROOT] - [FATAL] Could not connect to Redis Server
+2013-02-08 21:43:12,725 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:43:12,726 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:43:12,726 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:43:12,726 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:43:12,726 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Connecting to database
+2013-02-08 21:43:12,727 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Database connection successful.
+2013-02-08 21:43:12,728 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Starting invocation of node Home::privacy
+2013-02-08 21:43:12,761 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Invocation of node Home::privacy finished
+2013-02-08 21:43:12,762 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Closing Database Connection
+2013-02-08 21:43:12,762 - URUkGMCoAgIAAJYnXbUAAAAC - [ROOT] - [INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 21:47:49,264 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Recieved Request at privacy
+2013-02-08 21:47:49,265 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Loaded Lovanonymous Engine
+2013-02-08 21:47:49,265 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Checking Routes
+2013-02-08 21:47:49,265 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:47:49,265 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Connecting to database
+2013-02-08 21:47:49,266 - URUlLcCoAgIAAJc1Z6EAAAAE - [REDISDB] - [INFO] Trying to connect to Redis@localhost:localhost
+2013-02-08 21:47:49,267 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Database connection successful.
+2013-02-08 21:47:49,267 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Starting invocation of node Home::privacy
+2013-02-08 21:47:49,281 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Invocation of node Home::privacy finished
+2013-02-08 21:47:49,281 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Closing Database Connection
+2013-02-08 21:47:49,281 - URUlLcCoAgIAAJc1Z6EAAAAE - [ROOT] - [INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 21:50:32,779 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Recieved Request at privacy
+2013-02-08 21:50:32,783 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Loaded Lovanonymous Engine
+2013-02-08 21:50:32,783 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Checking Routes
+2013-02-08 21:50:32,783 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:50:32,784 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Connecting to database
+2013-02-08 21:50:32,784 - URUl0MCoAgIAAJc5Q3UAAAAF - [REDISDB   ] - [INFO   ] Trying to connect to Redis@localhost:localhost
+2013-02-08 21:50:32,785 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Database connection successful.
+2013-02-08 21:50:32,786 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Starting invocation of node Home::privacy
+2013-02-08 21:50:32,802 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Invocation of node Home::privacy finished
+2013-02-08 21:50:32,803 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Closing Database Connection
+2013-02-08 21:50:32,803 - URUl0MCoAgIAAJc5Q3UAAAAF - [ROOT      ] - [INFO   ] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 21:51:31,519 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 21:51:31,520 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 21:51:31,520 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 21:51:31,520 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:51:31,520 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 21:51:31,521 - URUmC8CoAgIAAJbsNsoAAAAD - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:localhost
+2013-02-08 21:51:31,522 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 21:51:31,522 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 21:51:31,535 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 21:51:31,535 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 21:51:31,536 - URUmC8CoAgIAAJbsNsoAAAAD - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-08 21:53:22,702 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Recieved Request at privacy
+2013-02-08 21:53:22,702 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-08 21:53:22,703 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Checking Routes
+2013-02-08 21:53:22,703 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-08 21:53:22,703 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Connecting to database
+2013-02-08 21:53:22,703 - URUmesCoAgIAAJc5Q3cAAAAF - [   REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-08 21:53:22,710 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Database connection successful.
+2013-02-08 21:53:22,710 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-08 21:53:22,711 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-08 21:53:22,712 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Closing Database Connection
+2013-02-08 21:53:22,712 - URUmesCoAgIAAJc5Q3cAAAAF - [   REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-08 21:53:22,712 - URUmesCoAgIAAJc5Q3cAAAAF - [      ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!

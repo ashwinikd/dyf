@@ -1,0 +1,74 @@
+2013-02-09 00:01:49,997 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Recieved Request at privacy
+2013-02-09 00:01:50,007 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-09 00:01:50,008 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Checking Routes
+2013-02-09 00:01:50,008 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-09 00:01:50,009 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Connecting to database
+2013-02-09 00:01:50,009 - URVElcCoAgIAAJYnXbwAAAAC - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-09 00:01:50,010 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Database connection successful.
+2013-02-09 00:01:50,011 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-09 00:01:50,019 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-09 00:01:50,019 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-09 00:01:50,020 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-09 00:01:50,020 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-09 00:01:50,020 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   INFO] Executing privacy
+2013-02-09 00:01:50,020 - URVElcCoAgIAAJYnXbwAAAAC - [       HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-09 00:01:50,021 - URVElcCoAgIAAJYnXbwAAAAC - [    privacyView] - [   INFO] Rendering view header
+2013-02-09 00:01:50,028 - URVElcCoAgIAAJYnXbwAAAAC - [    privacyView] - [   INFO] Rendering view footer
+2013-02-09 00:01:50,029 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-09 00:01:50,029 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-09 00:01:50,029 - URVElcCoAgIAAJYnXbwAAAAC - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-09 00:01:50,030 - URVElcCoAgIAAJYnXbwAAAAC - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-09 00:02:46,894 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Recieved Request at privacy
+2013-02-09 00:02:46,895 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-09 00:02:46,895 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Checking Routes
+2013-02-09 00:02:46,895 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-09 00:02:46,896 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Connecting to database
+2013-02-09 00:02:46,896 - URVEzsCoAgIAAJYnXb0AAAAC - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-09 00:02:46,897 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Database connection successful.
+2013-02-09 00:02:46,897 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-09 00:02:46,898 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-09 00:02:46,898 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-09 00:02:46,898 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-09 00:02:46,899 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-09 00:02:46,899 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   INFO] Executing privacy
+2013-02-09 00:02:46,899 - URVEzsCoAgIAAJYnXb0AAAAC - [       HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-09 00:02:46,899 - URVEzsCoAgIAAJYnXb0AAAAC - [    privacyView] - [   INFO] Rendering view header
+2013-02-09 00:02:46,900 - URVEzsCoAgIAAJYnXb0AAAAC - [    privacyView] - [   INFO] Rendering view footer
+2013-02-09 00:02:46,900 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-09 00:02:46,900 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-09 00:02:46,900 - URVEzsCoAgIAAJYnXb0AAAAC - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-09 00:02:46,901 - URVEzsCoAgIAAJYnXb0AAAAC - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-09 00:03:33,818 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Recieved Request at privacy
+2013-02-09 00:03:33,818 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-09 00:03:33,819 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Checking Routes
+2013-02-09 00:03:33,819 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Route found to privacy. Proceeding to serve the request.
+2013-02-09 00:03:33,819 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Connecting to database
+2013-02-09 00:03:33,820 - URVE-cCoAgIAAJc5Q30AAAAF - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-09 00:03:33,857 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Database connection successful.
+2013-02-09 00:03:33,857 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Starting invocation of node Home::privacy
+2013-02-09 00:03:33,858 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-09 00:03:33,858 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-09 00:03:33,858 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-09 00:03:33,859 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-09 00:03:33,859 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   INFO] Executing privacy
+2013-02-09 00:03:33,859 - URVE-cCoAgIAAJc5Q30AAAAF - [       HomeCtrl] - [   INFO] Rendering view privacy
+2013-02-09 00:03:33,860 - URVE-cCoAgIAAJc5Q30AAAAF - [    privacyView] - [   INFO] Rendering view header
+2013-02-09 00:03:33,860 - URVE-cCoAgIAAJc5Q30AAAAF - [    privacyView] - [   INFO] Rendering view footer
+2013-02-09 00:03:33,861 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Invocation of node Home::privacy finished
+2013-02-09 00:03:33,861 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-09 00:03:33,861 - URVE-cCoAgIAAJc5Q30AAAAF - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-09 00:03:33,861 - URVE-cCoAgIAAJc5Q30AAAAF - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-09 00:04:16,363 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Recieved Request at application
+2013-02-09 00:04:16,364 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-09 00:04:16,364 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Checking Routes
+2013-02-09 00:04:16,364 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Route found to application. Proceeding to serve the request.
+2013-02-09 00:04:16,364 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Connecting to database
+2013-02-09 00:04:16,365 - URVFKMCoAgIAAJYnXcAAAAAC - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-09 00:04:16,389 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Database connection successful.
+2013-02-09 00:04:16,390 - URVFKMCoAgIAAJYnXcAAAAAC - [           ROOT] - [   INFO] Starting invocation of node App::index
+2013-02-09 00:04:16,405 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   INFO] Waking up AppCtrl
+2013-02-09 00:04:16,406 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   INFO] Checking if user is logged in?
+2013-02-09 00:04:16,406 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   WARN] No user is logged in!!
+2013-02-09 00:04:16,407 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   INFO] AppCtrl: Controller AppCtrl reporting to duty sir!!!
+2013-02-09 00:04:16,407 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   INFO] Checking if user is authenticated?
+2013-02-09 00:04:16,407 - URVFKMCoAgIAAJYnXcAAAAAC - [        AppCtrl] - [   WARN] Redirecting user to http://www.luvanonymous.com

@@ -1,9 +1,9 @@
 <configuration xmlns="http://logging.apache.org/log4php/">
     <appender name="myAppender" class="LoggerAppenderDailyFile">
 		<layout class="LoggerLayoutPattern">
-		    <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} - %server{UNIQUE_ID} - [%logger] - [%level] %message%newline" />
+		    <param name="conversionPattern" value="%date{Y-m-d H:i:s,u} - %server{UNIQUE_ID} - [%15logger] - [%7level] %message%newline" />
 		</layout>
-        <param name="file" value="/srv/http/dyf/log/dyf-%s.log" />
+        <param name="file" value="/srv/httpd/dyf/log/dyf-%s.log" />
         <param name="datePattern" value="Ymd-H" />
     </appender>
     <root>
