@@ -1,6 +1,7 @@
 <?php $this->showView("header")?>
 <div class="hero-unit">
 	      <div class="jumbotron">
+	      		<h3 style="margin-bottom: 45px;">Find True Love on this Valentine's day ... anonymously!!!</h3>
 				<h3 class="muted"><img src="/static/images/banner.png" /></h3>
 			<?php if($this->data["loggedIn"]): ?>	
 					<a href="/application" class="btn btn-inverse">Choose Your Friends</a>
