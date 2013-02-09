@@ -16,7 +16,9 @@ abstract class Controller extends DYF {
 		if( ! $this->_auth() ) {
 			$this->logger->warn("No user is logged in!!");
 			$this->data["loggedIn"] = FALSE;
-			$this->data["loginUrl"] = self::$fb->getLoginUrl();
+			$this->data["loginUrl"] = self::$fb->getLoginUrl(
+				"redirect_uri" => "http://www.luvanonymous.com/application"
+			);
 		} else {	
 			$this->logger->info("User@" . $this->userId . " is logged in");
 			try {

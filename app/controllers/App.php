@@ -126,6 +126,8 @@ class AppController extends Controller {
 			$frndInterests = self::$db->getInterests($id);
 			$return[]     = $this->friends["idMap"][$id];
 			
+			$this->sendFbNotification($id, "Somebody is interested in dating you. Check out who, on Luvanonymous!");
+			
 			if(in_array($this->userId, $frndInterests)) {
 				self::$db->addMatch($this->userId, $this->friends["idMap"][$id]);
 				self::$db->addMatch($id, array("uid" => $this->userProfile["id"], "name" => $this->userProfile["name"], "sex" => $this->userProfile["gender"]));

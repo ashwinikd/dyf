@@ -1,0 +1,20 @@
+2013-02-10 00:06:29,898 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:06:29,918 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:06:29,918 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:06:29,918 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:06:29,919 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:06:29,939 - URaXLcCoAgIAAADuAqoAAAAA - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:06:29,953 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:06:29,954 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:06:29,955 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:06:29,955 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:06:29,955 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:06:29,956 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:06:29,956 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:06:29,956 - URaXLcCoAgIAAADuAqoAAAAA - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:06:29,957 - URaXLcCoAgIAAADuAqoAAAAA - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:06:29,957 - URaXLcCoAgIAAADuAqoAAAAA - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:06:29,958 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:06:29,958 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:06:29,958 - URaXLcCoAgIAAADuAqoAAAAA - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:06:29,959 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!

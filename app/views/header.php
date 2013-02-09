@@ -82,7 +82,7 @@
 						}
 					</style>
 </head>
-<body style="padding-top: 0px; margin-top: 0px; background-color:#FBEFFB;">
+<body style="padding-top: 0px; margin-top: 0px; background-color:#fff;">
 	<div class="navbar navbar-inverse navbar-fixed-top">
 	      <div class="navbar-inner">
 	        <div class="container">
@@ -91,18 +91,18 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </a>
-	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/application" : "/") ?>>Luv[anonymous]</a>
+	          <a class="brand <?php if($this->data["activeLink"] == NavLinks::HOME): ?>active<?php endif; ?>" href=<?php echo ($this->data["loggedIn"] ? "/application" : "/") ?>><img src="static/images/logo.png" /></a>
 	          <div class="nav-collapse collapse">
 	            <ul class="nav">
 					  <?php if($this->data["loggedIn"]): ?>
+					  <li><a href="/application">Choose your Friend</a></li>
 				      <li <?php if($this->data["activeLink"] == NavLinks::DATES): ?>class="active"<?php endif; ?>><a href="/dates">Who wants to date you?</a></li>
 				      <li <?php if($this->data["activeLink"] == NavLinks::HOME): ?>class="active"<?php endif; ?>><a href="/">About</a></li>
 						  <?php endif;?>
 				      <li <?php if($this->data["activeLink"] == NavLinks::PRIVACY): ?>class="active"<?php endif; ?>><a href="/privacy">Privacy</a></li>
 			              	<?php if($this->data["loggedIn"]): ?>
-							<li><a href="/application">Choose your Friend</a></li>
 							<li><form name="deleteform" method="POST" action="/delete" onsubmit="return confirm('You are going to remove your data! Are you Sure?');">
-					        <input type="submit" href="delete" class="btn btn-danger" style="margin: 5px 10px; float: right" value="Remove my Data" />
+					        <input type="submit" href="delete" class="btn" style="margin: 5px 10px; float: right" value="Remove my Data" />
 							</form></li>
 							<?php endif;?>
 	            </ul>

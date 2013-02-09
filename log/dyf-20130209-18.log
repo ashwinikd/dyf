@@ -1,0 +1,7 @@
+2013-02-09 18:26:44,942 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-09 18:26:45,019 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-09 18:26:45,020 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [   INFO] Checking Routes
+2013-02-09 18:26:45,020 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-09 18:26:45,020 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [   INFO] Connecting to database
+2013-02-09 18:26:45,040 - URZHjMCoAgIAAADuAqcAAAAA - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-09 18:26:45,084 - URZHjMCoAgIAAADuAqcAAAAA - [           ROOT] - [  FATAL] Could not connect to Redis Server
