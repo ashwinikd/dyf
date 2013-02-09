@@ -1,5 +1,5 @@
 <?php $this->showView("header")?>
-<div class="hero-unit" style="background-color: #F8E0F7">
+<div class="hero-unit">
 	      <div class="jumbotron">
 				<h3 class="muted"><img src="/static/images/banner.png" /></h3>
 			<?php if($this->data["loggedIn"]): ?>	

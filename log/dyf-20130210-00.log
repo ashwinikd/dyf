@@ -18,3 +18,122 @@
 2013-02-10 00:06:29,958 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Closing Database Connection
 2013-02-10 00:06:29,958 - URaXLcCoAgIAAADuAqoAAAAA - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
 2013-02-10 00:06:29,959 - URaXLcCoAgIAAADuAqoAAAAA - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-10 00:41:35,484 - URafZ8CoAgIAAANWFJwAAAAC - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:35,652 - URafZ8CoAgIAAANVFJIAAAAB - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:36,226 - URafaMCoAgIAAADuAq4AAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:36,635 - URafaMCoAgIAAAXZlcUAAAAE - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:45,193 - URafccCoAgIAAANYFJ0AAAAD - [           ROOT] - [   INFO] Recieved Request at ht
+2013-02-10 00:41:45,357 - URafccCoAgIAAAYFvnIAAAAF - [           ROOT] - [   INFO] Recieved Request at htt
+2013-02-10 00:41:45,759 - URafccCoAgIAAAZmIh0AAAAA - [           ROOT] - [   INFO] Recieved Request at http
+2013-02-10 00:41:46,760 - URafcsCoAgIAAAZnIqkAAAAB - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:51,692 - URafd8CoAgIAAAZoIrgAAAAC - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:51,958 - URafd8CoAgIAAAZpJKcAAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:53,565 - URafecCoAgIAAAZrJU0AAAAD - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:41:54,797 - URafesCoAgIAAAZqJU0AAAAB - [           ROOT] - [   INFO] Recieved Request at s
+2013-02-10 00:41:55,769 - URafe8CoAgIAAAZsJioAAAAA - [           ROOT] - [   INFO] Recieved Request at st
+2013-02-10 00:41:56,770 - URaffMCoAgIAAAZtJrUAAAAB - [           ROOT] - [   INFO] Recieved Request at stat
+2013-02-10 00:41:56,770 - URaffMCoAgIAAAZuJrUAAAAC - [           ROOT] - [   INFO] Recieved Request at sta
+2013-02-10 00:41:57,772 - URaffcCoAgIAAAZyJ4AAAAAG - [           ROOT] - [   INFO] Recieved Request at stati
+2013-02-10 00:44:13,468 - URagBcCoAgIAAAZxJ4YAAAAF - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:45:12,093 - URagQMCoAgIAAAZvJ34AAAAD - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:45:19,323 - URagR8CoAgIAAAZwJ38AAAAE - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:45:48,978 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:45:49,021 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:45:49,021 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:45:49,022 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:45:49,022 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:45:49,041 - URagZMCoAgIAAAZ3d0oAAAAA - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:45:49,044 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:45:49,044 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:45:49,087 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:45:49,087 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:45:49,088 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:45:49,088 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:45:49,088 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:45:49,089 - URagZMCoAgIAAAZ3d0oAAAAA - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:45:49,099 - URagZMCoAgIAAAZ3d0oAAAAA - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:45:49,099 - URagZMCoAgIAAAZ3d0oAAAAA - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:45:49,113 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:45:49,113 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:45:49,114 - URagZMCoAgIAAAZ3d0oAAAAA - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:45:49,114 - URagZMCoAgIAAAZ3d0oAAAAA - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-10 00:45:49,195 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:45:49,196 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:45:49,196 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:45:49,197 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:45:49,197 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:45:49,197 - URagZcCoAgIAAAZ3d04AAAAA - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:45:49,198 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:45:49,199 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:45:49,199 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:45:49,200 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:45:49,200 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:45:49,200 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:45:49,201 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:45:49,201 - URagZcCoAgIAAAZ3d04AAAAA - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:45:49,202 - URagZcCoAgIAAAZ3d04AAAAA - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:45:49,202 - URagZcCoAgIAAAZ3d04AAAAA - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:45:49,203 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:45:49,203 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:45:49,203 - URagZcCoAgIAAAZ3d04AAAAA - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:45:49,204 - URagZcCoAgIAAAZ3d04AAAAA - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-10 00:46:38,196 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:46:38,197 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:46:38,197 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:46:38,197 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:46:38,197 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:46:38,198 - URaglsCoAgIAAAZ9eEMAAAAG - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:46:38,200 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:46:38,200 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:46:38,201 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:46:38,201 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:46:38,201 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:46:38,202 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:46:38,202 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:46:38,202 - URaglsCoAgIAAAZ9eEMAAAAG - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:46:38,202 - URaglsCoAgIAAAZ9eEMAAAAG - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:46:38,203 - URaglsCoAgIAAAZ9eEMAAAAG - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:46:38,203 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:46:38,203 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:46:38,203 - URaglsCoAgIAAAZ9eEMAAAAG - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:46:38,204 - URaglsCoAgIAAAZ9eEMAAAAG - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-10 00:49:02,350 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:49:02,351 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:49:02,351 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:49:02,352 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:49:02,352 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:49:02,352 - URahJsCoAgIAAAZ8eDcAAAAF - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:49:02,355 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:49:02,355 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:49:02,355 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:49:02,356 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:49:02,356 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:49:02,356 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:49:02,356 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:49:02,357 - URahJsCoAgIAAAZ8eDcAAAAF - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:49:02,357 - URahJsCoAgIAAAZ8eDcAAAAF - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:49:02,357 - URahJsCoAgIAAAZ8eDcAAAAF - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:49:02,358 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:49:02,358 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:49:02,358 - URahJsCoAgIAAAZ8eDcAAAAF - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:49:02,358 - URahJsCoAgIAAAZ8eDcAAAAF - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!
+2013-02-10 00:49:42,277 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Recieved Request at /
+2013-02-10 00:49:42,277 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Loaded Lovanonymous Engine
+2013-02-10 00:49:42,278 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Checking Routes
+2013-02-10 00:49:42,278 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Route found to . Proceeding to serve the request.
+2013-02-10 00:49:42,278 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Connecting to database
+2013-02-10 00:49:42,279 - URahTsCoAgIAAAZ4d9EAAAAB - [        REDISDB] - [   INFO] Trying to connect to Redis@localhost:6379
+2013-02-10 00:49:42,281 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Database connection successful.
+2013-02-10 00:49:42,281 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Starting invocation of node Home::index
+2013-02-10 00:49:42,282 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   INFO] Waking up HomeCtrl
+2013-02-10 00:49:42,282 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   INFO] Checking if user is logged in?
+2013-02-10 00:49:42,282 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   WARN] No user is logged in!!
+2013-02-10 00:49:42,282 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   INFO] HomeCtrl: Controller HomeCtrl reporting to duty sir!!!
+2013-02-10 00:49:42,283 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   INFO] Executing index
+2013-02-10 00:49:42,283 - URahTsCoAgIAAAZ4d9EAAAAB - [       HomeCtrl] - [   INFO] Rendering view home
+2013-02-10 00:49:42,283 - URahTsCoAgIAAAZ4d9EAAAAB - [       homeView] - [   INFO] Rendering view header
+2013-02-10 00:49:42,284 - URahTsCoAgIAAAZ4d9EAAAAB - [       homeView] - [   INFO] Rendering view footer
+2013-02-10 00:49:42,284 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Invocation of node Home::index finished
+2013-02-10 00:49:42,284 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Closing Database Connection
+2013-02-10 00:49:42,285 - URahTsCoAgIAAAZ4d9EAAAAB - [        REDISDB] - [   WARN] Closing connection to Redis@localhost:6379
+2013-02-10 00:49:42,286 - URahTsCoAgIAAAZ4d9EAAAAB - [           ROOT] - [   INFO] Database connection closed. My work here is done. Now exiting. Bye Bye!!

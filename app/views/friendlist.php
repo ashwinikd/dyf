@@ -1,6 +1,6 @@
 <?php $this->showView("header"); ?>
 
-<div class="hero-unit" style="background-color: #F8E0F7">
+<div class="hero-unit">
 		<p >Select your Crush</p>
 		<input type="text" id="input" />
 		<div id="result"></div>

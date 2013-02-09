@@ -75,6 +75,9 @@
 			.muted {
 				text-align:center;
 			}
+			.hero-unit {
+				background: transparent;
+			}
 	    </style>	
 					<style type="text/css" id="hiddencss" disabled>
 						.hiddenfriend {
@@ -82,7 +85,7 @@
 						}
 					</style>
 </head>
-<body style="padding-top: 0px; margin-top: 0px; background-color:#fff;">
+<body style="padding-top: 0px; margin-top: 0px; background-image:url('<?php echo DYF_PROTOCOL . DYF_DOMAIN ?>/static/images/bg.png');">
 	<div class="navbar navbar-inverse navbar-fixed-top">
 	      <div class="navbar-inner">
 	        <div class="container">

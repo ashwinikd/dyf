@@ -1,5 +1,5 @@
 <?php $this->showView("header"); ?>
-<div class="hero-unit" style="background-color: #F8E0F7">
+<div class="hero-unit">
 		<h2>You want to date</h2>
 		<ul id="friendlist">
 		<?php foreach($this->data["selected"] as $friend): ?>
