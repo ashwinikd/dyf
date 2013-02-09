@@ -57,7 +57,7 @@ class RedisModel implements ModelIf {
 		$this->logger->warn("Deleting the mutual interests for $userId");
 		$this->conn->delete("matches:$userId");
 		
-		$this->conn->warn("Deleting crush information for $userId");
+		$this->logger->warn("Deleting crush information for $userId");
 		$this->conn->delete("interests:$userId");
 		
 		$this->logger->warn("Deleting friend information for $userId");
